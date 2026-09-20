@@ -117,16 +117,29 @@ export function ContactSection() {
               </div>
             </div>
 
-            {/* Map placeholder */}
-            <div className="bg-blue-50 border-2 border-blue-100 border-dashed rounded-2xl h-52 flex items-center justify-center">
+            {/* Map — opens Google Maps */}
+            <a
+              href="https://maps.app.goo.gl/7uHAnsa5xwZ6SkKP8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-blue-50 border-2 border-blue-100 hover:border-blue-300 border-dashed rounded-2xl h-52 flex items-center justify-center transition-colors duration-200 block"
+              aria-label="Get directions to VK Public School on Google Maps"
+            >
               <div className="text-center">
-                <svg className="w-12 h-12 text-blue-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                <svg className="w-12 h-12 text-blue-300 group-hover:text-blue-500 mx-auto mb-3 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <p className="text-blue-400 text-sm font-medium">Map — Balapura, Sira Taluk</p>
                 <p className="text-blue-300 text-xs mt-1">Tumakuru District, Karnataka</p>
+                <span className="inline-flex items-center gap-1.5 mt-3 text-blue-600 group-hover:text-blue-800 text-sm font-semibold transition-colors duration-200">
+                  Get Directions
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </span>
               </div>
-            </div>
+            </a>
           </div>
 
           {/* Right: contact form */}

@@ -131,7 +131,7 @@ export default async function AchievementsPage() {
           {/* Summary stats */}
           <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { value: "15+", label: "Years of Excellence" },
+              { value: "100%", label: "Dedication to Excellence" },
               { value: "10+", label: "Awards & Recognition" },
               { value: "100%", label: "Pass Rate (Grade 5)" },
               { value: "300+", label: "Happy Students" },
