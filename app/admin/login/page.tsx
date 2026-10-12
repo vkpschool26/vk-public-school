@@ -41,7 +41,7 @@ export default function AdminLoginPage() {
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-2xl shadow-lg mb-4">
             <Image
-              src="https://vkpublicschool.org/wp-content/uploads/2026/05/cropped-vkp-126x110.jpeg"
+              src="/logo.png"
               alt={`${SCHOOL_NAME} logo`}
               width={44}
               height={38}

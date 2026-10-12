@@ -71,7 +71,7 @@ export function Header() {
               aria-label="VK Public School – Home"
             >
               <Image
-                src="https://vkpublicschool.org/wp-content/uploads/2026/05/cropped-vkp-126x110.jpeg"
+                src="/logo.png"
                 alt="VK Public School logo"
                 width={56}
                 height={49}

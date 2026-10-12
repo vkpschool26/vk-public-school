@@ -26,7 +26,7 @@ export default async function AdminLayout({
         <div className="h-14 flex items-center justify-between px-4 sm:px-6">
           <div className="flex items-center gap-3">
             <Image
-              src="https://vkpublicschool.org/wp-content/uploads/2026/05/cropped-vkp-126x110.jpeg"
+              src="/logo.png"
               alt={`${SCHOOL_NAME} logo`}
               width={32}
               height={28}
