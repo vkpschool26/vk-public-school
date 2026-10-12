@@ -34,7 +34,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <div className="flex items-center justify-between p-5 border-b border-slate-100 bg-blue-800">
           <div className="flex items-center gap-3">
             <Image
-              src="https://vkpublicschool.org/wp-content/uploads/2026/05/cropped-vkp-126x110.jpeg"
+              src="/logo.png"
               alt="VK Public School logo"
               width={36}
               height={31}
