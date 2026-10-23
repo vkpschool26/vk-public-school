@@ -105,7 +105,7 @@ export function FacilitiesSection() {
           className="mb-14"
         />
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5" data-reveal-group>
           {facilities.map((facility) => (
             <div
               key={facility.title}

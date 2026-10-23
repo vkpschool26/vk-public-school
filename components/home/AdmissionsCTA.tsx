@@ -48,7 +48,7 @@ export function AdmissionsCTA() {
         </div>
 
         {/* Steps */}
-        <div className="grid sm:grid-cols-3 gap-6 mb-12">
+        <div className="grid sm:grid-cols-3 gap-6 mb-12" data-reveal-group>
           {steps.map((step, index) => (
             <div key={step.step} className="relative flex flex-col items-center text-center">
               {/* Connector line */}

@@ -101,7 +101,7 @@ export function AcademicsHighlights() {
           </Link>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" data-reveal-group>
           {subjects.map((subject) => (
             <div
               key={subject.title}

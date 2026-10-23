@@ -68,7 +68,7 @@ export async function LatestEvents() {
             </Link>
           </div>
         ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" data-reveal-group>
             {latestEvents.map((event) => (
               <article
                 key={event.id}

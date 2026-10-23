@@ -16,7 +16,7 @@ export function SectionHeading({
   const alignClasses = align === "center" ? "text-center" : "text-left";
 
   return (
-    <div className={`${alignClasses} ${className}`}>
+    <div className={`${alignClasses} ${className}`} data-reveal>
       {eyebrow && (
         <span className="inline-block text-amber-500 font-semibold text-sm uppercase tracking-widest mb-2">
           {eyebrow}

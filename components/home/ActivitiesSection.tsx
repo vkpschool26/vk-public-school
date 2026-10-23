@@ -92,7 +92,7 @@ export async function ActivitiesSection() {
             </Link>
           </div>
         ) : (
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6" data-reveal-group>
             {displayActivities.map((activity) => {
               const colors = colorConfig[activity.color] ?? colorConfig.blue;
               return (
