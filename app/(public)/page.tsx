@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/home/HeroSection";
 import { IntroSection } from "@/components/home/IntroSection";
+import { ValuesCoins } from "@/components/home/ValuesCoins";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
 import { AcademicsHighlights } from "@/components/home/AcademicsHighlights";
 import { ActivitiesSection } from "@/components/home/ActivitiesSection";
@@ -14,6 +15,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <IntroSection />
+      <ValuesCoins />
       <WhyChooseUs />
       <AcademicsHighlights />
       <ActivitiesSection />

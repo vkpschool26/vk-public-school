@@ -25,7 +25,7 @@ export function IntroSection() {
       aria-labelledby="intro-heading"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center" data-reveal-group>
           {/* Text content */}
           <div>
             <span className="inline-block text-amber-500 font-semibold text-sm uppercase tracking-widest mb-2">

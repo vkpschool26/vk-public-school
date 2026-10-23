@@ -69,7 +69,7 @@ export async function GalleryPreview() {
         ) : (
           <>
             {/* Gallery grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4" data-reveal-group>
               {previewImages.map((image, index) => (
                 <Link
                   key={image.id}

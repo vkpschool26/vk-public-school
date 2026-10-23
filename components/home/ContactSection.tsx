@@ -77,7 +77,7 @@ export function ContactSection() {
           className="mb-12"
         />
 
-        <div className="grid lg:grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-2 gap-10" data-reveal-group>
           {/* Left: contact info + map placeholder */}
           <div>
             <div className="grid sm:grid-cols-3 gap-4 mb-6">
